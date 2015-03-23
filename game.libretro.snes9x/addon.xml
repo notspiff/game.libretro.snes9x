@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="gameclient.snes9x"
+<addon id="game.libretro.snes9x"
 		name="Snes9x"
 		version="1.53.1"
 		provider-name="Libretro">
 	<requires>
-		<import addon="xbmc.libretro" version="1.0.0"/>
+		<import addon="game.libretro" version="1.0.0"/>
 	</requires>
-	<extension point="xbmc.gameclient"
-			library_android=""
-			library_linux="snes9x_libretro.so"
-			library_osx=""
-			library_windx=""
-			library_wingl="">
+	<extension point="kodi.gameclient"
+                   library_android="libgame.libretro.snes9x.so"
+                   library_linux="game.libretro.snes9x.so"
+                   library_osx="game.libretro.snes9x.dylib"
+                   library_windx="game.libretro.snes9x.dll"
+                   library_wingl="game.libretro.snes9x.dll">
 		<platforms>SNES</platforms>
 		<extensions>smc|sfc|swc|fig</extensions>
 		<allowvfs>true</allowvfs>
@@ -27,8 +27,6 @@ Icon credit: Alucryd (alucryd.deviantart.com)
 
 Source: https://github.com/snes9xgit/snes9x</description>
 		<disclaimer>The Snes9X team is not connected or affiliated with any mentioned company in any way. The opinions of the Snes9X team do not reflect the views of the various companies mentioned here. Companies and all products pertaining to that company are trademarks of that company. Please contact that company for trademark and copyright information.</disclaimer>
-		<platform>linux</platform>
-		<nofanart>true</nofanart>
-		
+		<platform>all</platform>
 	</extension>
 </addon>
