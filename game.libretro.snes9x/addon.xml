@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.snes9x"
 		name="Snes9x"
-		version="1.53.1"
+		version="1.53.0"
 		provider-name="Libretro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -15,8 +15,8 @@
                    library_wingl="game.libretro.snes9x.dll">
 		<platforms>SNES</platforms>
 		<extensions>smc|sfc|swc|fig</extensions>
-		<allowvfs>true</allowvfs>
-		<blockextract>false</blockextract>
+		<supports_vfs>true</supports_vfs>
+		<supports_no_game>false</supports_no_game>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Snes9x v1.53</summary>
