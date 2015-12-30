@@ -79,3 +79,7 @@ msgstr ""
 msgctxt "#30015"
 msgid "Enable sound channel 8"
 msgstr ""
+
+msgctxt "#30016"
+msgid "SuperFX Overclock"
+msgstr ""
