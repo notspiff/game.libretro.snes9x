@@ -8,11 +8,7 @@
 		<import addon="game.controller.snes" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
-                   library_android="libgame.libretro.snes9x.so"
-                   library_linux="game.libretro.snes9x.so"
-                   library_osx="game.libretro.snes9x.dylib"
-                   library_windx="game.libretro.snes9x.dll"
-                   library_wingl="game.libretro.snes9x.dll">
+                   library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>SNES</platforms>
 		<extensions>smc|sfc|swc|fig</extensions>
 		<supports_vfs>true</supports_vfs>
@@ -28,7 +24,7 @@ Icon credit: Alucryd (alucryd.deviantart.com)
 
 License: Incompatible (GPLv2 &amp; Non-commercial)</description>
 		<disclaimer>The Snes9X team is not connected or affiliated with any mentioned company in any way. The opinions of the Snes9X team do not reflect the views of the various companies mentioned here. Companies and all products pertaining to that company are trademarks of that company. Please contact that company for trademark and copyright information.</disclaimer>
-		<platform>all</platform>
+		<platform>@PLATFORM@</platform>
 		<nofanart>true</nofanart>
 	</extension>
 </addon>
