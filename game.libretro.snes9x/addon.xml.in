@@ -17,7 +17,7 @@
 		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">SNES / Super Famicom (Snes9x) 1.53 844930e</summary>
+		<summary lang="en">SNES / Super Famicom (Snes9x) 1.53</summary>
 		<description>Snes9x is a portable, freeware SNES and Super Famicom emulator. Snes9x is coded in C++, with three assembler CPU emulation cores on the i386 Linux and Windows ports.
 
 Supported files: .smc, .sfc, .swc, .fig
